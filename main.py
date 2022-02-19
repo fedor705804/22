@@ -1,4 +1,5 @@
-from turtle import * 
+from turtle import *
+
 shape('turtle')
 fd(50)
 right(90)
@@ -8,10 +9,11 @@ fd(50)
 right(90)
 fd(50)
 right(90)
-from turtle import * 
+from turtle import *
+
 shape('turtle')
 
-color('red','green')
+color('red', 'green')
 fd(50)
 right(90)
 fd(50)
