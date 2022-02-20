@@ -1,31 +1,33 @@
 from turtle import *
 
+size = 150
+
 shape('turtle')
-fd(50)
+fd(size)
 right(90)
-fd(50)
+fd(size)
 right(90)
-fd(50)
+fd(size)
 right(90)
-fd(50)
+fd(size)
 right(90)
 from turtle import *
 
 shape('turtle')
 
 color('red', 'green')
-fd(50)
+fd(size)
 right(90)
-fd(50)
+fd(size)
 right(90)
-fd(50)
+fd(size)
 right(90)
-fd(50)
+fd(size)
 right(90)
 
 begin_fill()
-circle(50)
-fd(50)
+circle(size)
+fd(size)
 end_fill()
 
-circle(50)
+circle(size)
