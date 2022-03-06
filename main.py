@@ -6,6 +6,7 @@ seze = 75
 
 suze = 50
 
+syze = 100
 color('yellow','blue')
 
 begin_fill()
@@ -18,14 +19,19 @@ fd(size)
 right(90)
 fd(seze)
 right(90)
-fd(seze)
+
+right(315)
+fd(syze)
+right(90)
+fd(syze)
+# fd(seze)
 end_fill()
 
-color('yellow')
-begin_fill()
-right(90)
-fd(seze)
-right(90)
-circle(50)
-shape('turtle')
-end_fill()
+# color('yellow')
+# begin_fill()
+# right(90)
+# fd(seze)
+# right(90)
+# circle(50)
+# shape('turtle')
+# end_fill()
